@@ -1,0 +1,7 @@
+.tips {
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial", serif;
+    background-color: rgb(212, 220, 255);
+    border: 10px solid rgb(89, 9, 37);
+}

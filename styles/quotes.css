@@ -1,0 +1,7 @@
+.quotes {
+    margin-bottom: .5em;
+    margin-right: .5rem;
+    font-family: "Arial", serif;
+    border: 10px solid rgb(89, 9, 37);
+    background-color: rgb(125, 131, 255);
+}
