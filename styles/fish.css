@@ -1,0 +1,13 @@
+.fishes {
+    border: 10px solid rgb(89, 9, 37);
+    background-color: rgb(26, 255, 213);
+    font-family: "Arial", serif;
+    margin-bottom: .5em;
+    margin-right: .5rem;
+}
+
+.fish__image {
+
+    height: 15rem;
+
+}
