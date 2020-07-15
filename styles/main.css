@@ -31,6 +31,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .content--right {
+    border: 10px solid rgb(89, 9, 37);
     display: flex;
     flex: 10;
     flex-direction: column;

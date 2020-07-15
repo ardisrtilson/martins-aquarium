@@ -1,6 +1,6 @@
 const fishCollection = [
     {
-name: "Dory",
+name: "Lovecraft",
 food: "Plankton",
 species: "Blue Tang",
 length: 4,
@@ -29,6 +29,6 @@ export const useFish = () => {
     return fishCollection.slice()
 }
 
-export const addFish = () => {
-    fishCollection.push ()
+export const addFish = (fish) => {
+    fishCollection.push (fish)
 }
