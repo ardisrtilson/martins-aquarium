@@ -26,19 +26,20 @@ h1,h2,h3,h4,h5,h6 {
 
 .content--left {
     display: flex;
-    flex: 10;
+    flex: 5rem;
     flex-direction: column;
 }
 
 .content--right {
+    background-color: rgb(125, 131, 255);
     border: 10px solid rgb(89, 9, 37);
     display: flex;
-    flex: 10;
+    flex: 5rem;
     flex-direction: column;
 }
 
 .card {
-    padding: 5rem;
+    padding: 1rem;
     text-align: center;
 }
 

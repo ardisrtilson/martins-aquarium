@@ -1,28 +1,36 @@
 const fishCollection = [
     {
 name: "Lovecraft",
-food: "Plankton",
-species: "Blue Tang",
-length: 4,
-location: "Great Barrier Reef",
-image: ""
+food: "Shrimp, Snails",
+species: "Anglerfish",
+length: 3.7,
+location: "Cook Islands",
+image: "images/Anglerfish.jpg"
     },
     {
-name: "Nemo",
-food: "Plankton, Algae",
-species: "Clown Fish",
-length: 5,
-location: "Great Barrier Reef",
-image: ""
+name: "Blackwood",
+food: "Crabs, Octopus, Worms",
+species: "Cuttlefish",
+length: 1.8,
+location: "Indonesia",
+image: "images/Cuttlefish.jpg"
     },
     {
-name: "Bruce",
-food: "Fish, Tires",
-species: "Great White Shark",
-length: 25,
+name: "Algernon",
+food: "Squid, Crabs",
+species: "Hammerhead",
+length: 20,
 location: "Great Barrier Reef",
-image: ""
+image: "images/Hammerhead.jpg"
     }
+    {
+        name: "Howard",
+        food: "Krill, Capelin, Herring",
+        species: "Atlantic Salmon",
+        length: 2.6,
+        location: "Bermuda",
+        image: "images/Salmon.jpg"
+            }
 ]
 
 export const useFish = () => {

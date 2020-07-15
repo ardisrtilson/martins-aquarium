@@ -9,5 +9,12 @@
 .fish__image {
 
     height: 15rem;
+    width: 15rem;
+
+}
+
+.fish__title {
+
+text-align: center;
 
 }

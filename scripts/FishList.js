@@ -10,7 +10,11 @@ export const FishList = () => {
     for(const currentFishObj of fishes){
         fishHTMLRepresentations += fish(currentFishObj)
     }
+
     contentElement.innerHTML += `
-    <article class="fishes">${fishHTMLRepresentations}</article>
+    <article class="fishes">
+        <h3 class="fish__title">Here's the fish.</h3>
+        ${fishHTMLRepresentations}
+    </article>
     `
     }
