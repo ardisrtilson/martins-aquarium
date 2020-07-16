@@ -1,6 +1,6 @@
 // this module creates the list of fish to add to the DOM
 import{useFish} from "./FishDataProvider.js"
-import{fish} from "./fish.js"
+import{fishHTML} from "./fish.js"
 export const FishList = () => {
     const contentElement = document.querySelector(".content--left")
     const fishes = useFish()
@@ -8,12 +8,12 @@ export const FishList = () => {
     let fishHTMLRepresentations = ""
 
     for(const currentFishObj of fishes){
-        fishHTMLRepresentations += fish(currentFishObj)
+        fishHTMLRepresentations += fishHTML(currentFishObj)
     }
 
     contentElement.innerHTML += `
     <article class="fishes">
-        <h3 class="fish__title">Here's the fish.</h3>
+        <h3 class="title">Fishy Finds</h3>
         ${fishHTMLRepresentations}
     </article>
     `
