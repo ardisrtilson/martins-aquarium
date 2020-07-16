@@ -1,4 +1,4 @@
-export const location = (locationObj) => {
+export const locationHTML = (locationObj) => {
     return `<section class="card">
     <div><img  class="location__image image--card" src=${locationObj.image}/></div>
     <div class="location">${locationObj.name}</div>

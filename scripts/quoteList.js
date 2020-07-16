@@ -10,6 +10,9 @@ export const QuoteList = () => {
         quoteHTMLRepresentations += quote(currentQuoteObj)
     }
     contentElement.innerHTML += `
-    <article class="quotes">${quoteHTMLRepresentations}</article>
+    <article class="quotes">
+    <h3 class="title">Fishy Quotes</h3>
+    ${quoteHTMLRepresentations}
+    </article>
     `
     }
